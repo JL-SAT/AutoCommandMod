@@ -1,0 +1,7 @@
+{
+  "name": "Minecraft Auto Command Mod Showcase",
+  "description": "Showcase, interactive keybind configurator, documentation, and feature hub for the Minecraft Auto Command & Macro Mod.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
