@@ -2,9 +2,11 @@
 
 /* Globally hide scrollbars while preserving smooth scroll functionality */
 html, body {
-  overflow-x: hidden !important;
+  /* clip (not hidden) so the sticky header isn't trapped in a scroll container */
+  overflow-x: clip !important;
   max-width: 100vw;
   scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
 }
 
 /* Hide scrollbars for Chrome, Safari, Edge, Opera and iOS */

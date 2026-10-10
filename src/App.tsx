@@ -76,7 +76,7 @@ export default function App() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-neutral-950 text-neutral-100 font-sans selection:bg-emerald-500 selection:text-neutral-950 overflow-x-hidden">
+    <div className="w-full min-h-screen bg-neutral-950 text-neutral-100 font-sans selection:bg-emerald-500 selection:text-neutral-950 overflow-x-clip">
       {/* Top Bar */}
       <TopNav onNavigate={scrollTo} />
 

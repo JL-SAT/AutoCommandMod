@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CheckCircle2, Gamepad2, Sparkles, Copy, Check, Download } from 'lucide-react';
+import { Copy, Check, Download } from 'lucide-react';
 
 export function AboutProject() {
   const [copied, setCopied] = useState(false);
@@ -20,58 +20,6 @@ export function AboutProject() {
         <p className="text-xs sm:text-sm text-neutral-400 mt-0.5">
           How to install and use the mod in Forge 1.8.9.
         </p>
-      </div>
-
-      {/* Challenge & Solution Grid (Concise) */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="p-4 bg-neutral-900 border border-neutral-800 rounded-lg space-y-1.5">
-          <div className="text-xs font-bold text-neutral-400 uppercase">The Problem</div>
-          <h3 className="text-sm font-bold text-neutral-100">Repetitive Command Typing</h3>
-          <p className="text-xs text-neutral-300 leading-relaxed">
-            Typing commands mid-game is slow and interrupts gameplay.
-          </p>
-        </div>
-
-        <div className="p-4 bg-neutral-900 border border-neutral-800 rounded-lg space-y-1.5">
-          <div className="text-xs font-bold text-emerald-400 uppercase">The Solution</div>
-          <h3 className="text-sm font-bold text-neutral-100">One-Tap Hotkeys &amp; Combos</h3>
-          <p className="text-xs text-neutral-300 leading-relaxed">
-            Trigger commands instantly or chain actions with custom pauses using an in-game menu.
-          </p>
-        </div>
-      </div>
-
-      {/* 3 Highlights */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-        <div className="p-3.5 bg-neutral-950 border border-neutral-850 rounded-lg space-y-1">
-          <div className="flex items-center gap-2 text-emerald-400 text-xs font-semibold">
-            <CheckCircle2 className="w-3.5 h-3.5" />
-            <span>Visual In-Game UI</span>
-          </div>
-          <p className="text-xs text-neutral-400">
-            Configure keys directly in-game without editing config files.
-          </p>
-        </div>
-
-        <div className="p-3.5 bg-neutral-950 border border-neutral-850 rounded-lg space-y-1">
-          <div className="flex items-center gap-2 text-emerald-400 text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Pause Control</span>
-          </div>
-          <p className="text-xs text-neutral-400">
-            Custom pauses keep commands from getting blocked by spam filters.
-          </p>
-        </div>
-
-        <div className="p-3.5 bg-neutral-950 border border-neutral-850 rounded-lg space-y-1">
-          <div className="flex items-center gap-2 text-emerald-400 text-xs font-semibold">
-            <Gamepad2 className="w-3.5 h-3.5" />
-            <span>Multiplayer Safe</span>
-          </div>
-          <p className="text-xs text-neutral-400">
-            Works on any public server without requiring OP or server plugins.
-          </p>
-        </div>
       </div>
 
       {/* 3-Step Installation */}
